@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "target": "generalspanish.a11.unit2changes",
+      "public": "generalspanish.a11.unit2changes/build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+    ]
+  },
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/index.html"
+    }
+  ]
+}

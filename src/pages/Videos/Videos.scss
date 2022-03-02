@@ -1,0 +1,69 @@
+@import "../../scss/index.scss";
+
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: #101010;
+}
+.App-header {
+  /* background-color: #282c34; */
+  background-color: #101010;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ui.video {
+  .videos-form {
+    margin-top: 50px;
+    //margin-right: 700px;
+  }
+  .menu {
+    background-color: $background-grey-light;
+    border: 0;
+    .item {
+      border-color: $border-light-dark;
+      color: $font-light;
+    }
+  }
+}
+
+div.ui.search.selection.dropdown.listado-videos {
+  position: relative;
+  top: 30px;
+  background-color: $background-grey-light;
+  font-size: 16px;
+  color: $font-light;
+  border: 0;
+  left: 15%;
+  width: 70%;
+
+  .search {
+    color: $font-light;
+  }
+}
+
+.ui.embed {
+  width: 70%;
+  height: 10%;
+  margin: 0 auto;
+}
+
+h1.titulo-videos {
+  font-size: 20px;
+  position: relative;
+  color: #ffff;
+  text-align: center;
+}
+
+h3.seleccionar-video {
+  position: relative;
+  top: 20px;
+  margin-left: 15%;
+  color: rgba(255, 255, 255, 0.856);
+}
