@@ -57,7 +57,7 @@ form.trabajo-l2 {
 }
 
 .form-control-estilo-dos {
-  border: 0; 
+  border: 0;
   border-bottom: 1px solid #fff;
   background-color: #141414;
   color: #fff;
@@ -105,9 +105,9 @@ button.ui.button.btn-primary-dos {
   font-size: 60%;
   text-transform: uppercase;
   border-radius: 50px;
- // margin-left: 5%;
+  // margin-left: 5%;
   border: none;
- // margin-right: auto;
+  // margin-right: auto;
 }
 
 .center {
@@ -115,7 +115,7 @@ button.ui.button.btn-primary-dos {
   justify-content: center;
   align-items: center;
   height: 200px;
- // border: 3px solid green; 
+  // border: 3px solid green;
 }
 
 h2.L2 {
@@ -127,11 +127,11 @@ h2.L2 {
   // margin-left: -20px;
 }
 
-p.not-assigned-dos{
+p.not-assigned-dos {
   color: #fff;
-  position:relative;
-  top:20px;
-  text-align:center;
+  position: relative;
+  top: 20px;
+  text-align: center;
 }
 
 .parrafo-dos {
@@ -240,4 +240,21 @@ img.image {
 .Toastify__toast-body {
   text-align: center;
   margin-left: 25%;
+}
+
+.short-answer {
+  display: block;
+  width: 100%;
+  margin-left: 10%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #141414;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }

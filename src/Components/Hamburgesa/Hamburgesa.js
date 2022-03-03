@@ -4,7 +4,7 @@ import { Logo } from "../../logo.png";
 import firebase from "../../utils/Firebase";
 import "firebase/auth";
 
- import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 import './Hamburgesa.scss'
 
@@ -18,7 +18,7 @@ export default function Hamburgesa() {
     <Navbar collapseOnSelect expand={false} bg="dark" variant="dark">
       <Navbar.Brand href="/">
 
-        General Spanish
+        Spanish for Business
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

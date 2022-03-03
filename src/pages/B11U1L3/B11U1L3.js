@@ -29,126 +29,146 @@ export default class B11U1L3 extends Component {
         <h2 className="lesson3title"><br></br>Lesson 3</h2>
         <Slider {...settings}>
         <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-0.jpg?alt=media&token=c0565299-8441-4f2f-a8fd-3f71f91cebe6'} alt="boohoo" className="img-responsive"/>
-          <br/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-1.jpg?alt=media&token=775352cb-9016-42ec-be73-68d90e443f98'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-2.jpg?alt=media&token=e4c184ac-d8bd-4a14-ac4d-f70f0ba586b8'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-3.jpg?alt=media&token=bf826af0-4d97-4a31-ab4a-c3add3057cac'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-4.jpg?alt=media&token=775f894f-aa05-4c2d-a0d5-404f39791cb2'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-5.jpg?alt=media&token=ef3972aa-1077-4629-9b5e-77a4ae486a01'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-6.jpg?alt=media&token=01ab76bb-9e9b-4ece-988d-4211a4013dbd'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-7.jpg?alt=media&token=d5657837-3d4c-411a-b6dc-1a825012eb0c'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-8.jpg?alt=media&token=f20e35f0-c238-4693-9105-e3d985b5606c'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-9.jpg?alt=media&token=b9fa6b8d-ed3b-4f6c-a77e-aac3a51568a2'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-10.jpg?alt=media&token=40565265-b206-471f-96bf-8e0d854f0f86'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-11.jpg?alt=media&token=2b440aa1-9132-429a-ab9c-b99904095de4'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-12.jpg?alt=media&token=32f7fcb9-dd1c-481b-926d-167a156caa8a'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-13.jpg?alt=media&token=b651574e-69cc-46b6-bf2e-42922aec2b36'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-14.jpg?alt=media&token=ac4d933e-78b9-472e-b029-926f2a861164'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-15.jpg?alt=media&token=559d503e-e3af-4eca-83b9-76a66f135a1f'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-16.jpg?alt=media&token=91616c25-a318-4a75-84fe-fbe746dcb256'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-17.jpg?alt=media&token=37a5f9a7-567e-476e-b332-298ea0d1b836'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-18.jpg?alt=media&token=c387c09a-63e6-4193-8aa7-29846f1bff09'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-19.jpg?alt=media&token=9400966d-84fe-4f62-a6d0-22ce60a75dab'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-20.jpg?alt=media&token=24dcce7b-ee6a-42b0-993c-95ad3b28e451'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-21.jpg?alt=media&token=b4fbdde4-431d-48b0-a92c-428e6fb4f890'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-22.jpg?alt=media&token=aa2ab223-30a6-4f16-af65-78a5cd5e7d9c'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-23.jpg?alt=media&token=74cfba35-cfb9-4cc0-8bf6-97051fcf4de9'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-24.jpg?alt=media&token=feb6316d-80a5-4d4a-96fa-78a340ef2f04'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-25.jpg?alt=media&token=9f56f7d4-7026-42c4-8228-d02dc6f98719'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-26.jpg?alt=media&token=40fbeb83-08f3-4ba9-be60-7469131be1dc'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-27.jpg?alt=media&token=e2f901e9-bcf4-4c47-af74-bdae17f9946d'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-28.jpg?alt=media&token=59610882-2e65-4458-9aa7-13732c7b849f'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-29.jpg?alt=media&token=acf4ed5f-faef-405a-8c5c-108a15215dcd'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-30.jpg?alt=media&token=aef2db2f-cb90-4b36-a501-e25fc7613f86'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-31.jpg?alt=media&token=a8f80d6e-3dc8-4c2c-8c41-d8f04c694781'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-32.jpg?alt=media&token=e3986b9a-c9c1-4d3d-89bc-2fdf3695092b'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-33.jpg?alt=media&token=c8a9228f-1752-4044-abe2-818588d09ec7'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-34.jpg?alt=media&token=9226b7a4-9f56-457b-9597-033d508b54bc'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-35.jpg?alt=media&token=08756d4c-a0d7-42dd-b399-f446da55d50a'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-36.jpg?alt=media&token=62a7e9e0-1ba8-4fe1-b1d3-7735f1c7cfa9'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-37.jpg?alt=media&token=518f7230-2aaf-40ce-8c7e-dd97ea0e3401'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-38.jpg?alt=media&token=7ea6a090-34ee-4dcd-b93d-f8c6b09a1dd1'} alt="boohoo" className="img-responsive"/>
-          </div>
-          <div>
-          <img src={'https://firebasestorage.googleapis.com/v0/b/general-spanish.appspot.com/o/A1.1%2FA1.1%20Unit%202%2FA1.1%20Unit%202%20L3%2Fb8bc15e4c557cca5904e57f92c4a75dc-39.jpg?alt=media&token=90edce68-cbeb-4886-ad29-2b752e1e598d'} alt="boohoo" className="img-responsive"/>
-          </div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F7eba8234-9779-48aa-bdb1-d584a844691e?alt=media&token=da66fc29-efa6-401e-b511-49985a9f7c22"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Fbc62689a-38a0-4723-9263-abe396d6e8ee?alt=media&token=7f7bd66c-dd78-4879-a536-137d91942c2e"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F297ee159-549e-480a-a954-5f9167617cd9?alt=media&token=e3e9f242-539c-4e57-bef4-12e8d3e42df7"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F6c650cfb-c99a-4314-bf45-b53c50ee96e0?alt=media&token=7c9a565d-3e08-4459-abde-5a151748e3f1"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F26311ab7-7cf9-454c-be2b-c591f4aba4f8?alt=media&token=559e2c7e-708f-4966-acf6-126392ea8082"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F90e4ebb5-f2d1-4607-a847-c21dbac13223?alt=media&token=288338cd-4352-462e-a7f5-244214715b5d"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F0a3216f2-675c-4b27-9d3d-e9a828072849?alt=media&token=13f070df-0c38-482f-a992-a50f1d96806d"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Fb7da5f7b-f081-49c4-9298-d0f425a28ff1?alt=media&token=ae8143bc-a5e7-43cb-83ef-052b4bfa6777"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F806a1905-24ca-4b9d-a3a7-d2daef84321e?alt=media&token=1636f62d-57b7-4491-b406-93271201a725"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Fcbe2776e-6716-4581-899a-f89f69e20638?alt=media&token=2598fabb-75b1-45f6-bb93-39b790260574"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Ff6657bf3-a20c-41eb-b143-17a7db85514a?alt=media&token=54f86155-1201-4bdd-b269-bd19290b31a1"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F507b7692-54c0-4639-bc5f-d074dee8dae2?alt=media&token=81d6db93-7c52-4347-ac66-bb1460ee1a4f"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F1a9817a6-d693-48db-a423-da749238422e?alt=media&token=fe10f3d6-4497-44b6-941f-17f28a0c7112"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F06154598-ee10-4560-addf-fe11df776e6b?alt=media&token=db3a9acc-6149-450d-a737-193c2f3dcb1b"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Faa1a3888-bbeb-495e-9d0b-8efc488a0a00?alt=media&token=3e0c67de-2f46-4432-96fe-c19e67140a5b"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F6ee0135f-eeaa-4139-811c-f36afcb377ca?alt=media&token=a8523df8-fad0-45d8-9220-1ab6069f71cb"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Fc02e9259-86e7-4800-8db3-f751656dd9f2?alt=media&token=735d7a67-6e9e-4615-8ea3-54491328b267"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F5693f1e2-b1eb-41ba-9594-4b3ebc5f23f7?alt=media&token=20098548-b6d3-43b2-8e2f-3bea3b9b08f8"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F2180ee23-7ead-41b9-8791-7f447dc53280?alt=media&token=39470c41-9873-4685-93cd-6168c6d2a920"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F29b3b6c6-0b94-4156-8dea-51c5c7005eb0?alt=media&token=69a17aea-cd5b-4d70-a382-2946d80e6dd9"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F65133fa7-23d3-479d-8178-b7755ab3cae6?alt=media&token=12fcde63-6916-4a42-9484-bca037f76d06"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F1cb29a52-800e-46dc-bf00-2f7f47a9aabf?alt=media&token=930875b2-bc4b-4ef4-8fbe-86972f49f741"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Fa1bba28c-23b5-4896-8a6e-dbf7d57e8589?alt=media&token=e889ec3c-13cf-455d-a3a5-dc8e25828503"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Ff76cf9a0-da64-4e33-8520-f2784ab2d255?alt=media&token=54f79d33-9659-42f5-8192-3cb39e316fe4"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Ffd927faf-4d7f-420c-bb09-47d31c161dc4?alt=media&token=a8bb4445-19db-48c8-a332-b1110bd26b74"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F67aa3d51-cbf4-41a5-84f3-0ada4117cd12?alt=media&token=cbe3521f-68df-49e6-ad6b-d9f4d3f88c65"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Fc4b035c5-6f17-4968-88d9-6e42042bf6fc?alt=media&token=8e5cd4df-b990-4bf2-bf9a-1a003dc83b47"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F4004a1d8-6d11-4720-9416-4292ab0f29e7?alt=media&token=93e36f46-8579-46d1-ada5-347680b25cbd"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F7ec93a13-1f99-417c-9e5f-a7b8a85f84a2?alt=media&token=04a8c386-b9e8-435a-9288-7413c2cd95d0"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F6a3c5d38-67e1-4b5c-a8c2-01500e20d15d?alt=media&token=3da655d6-2d2a-42d3-9ea4-b6e8c6882489"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F245890a5-62f0-4997-9cd3-5477a1db6ce9?alt=media&token=69b59993-1737-4aa1-a120-94a6ac2c5498"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2F3450be23-e3e5-4094-a9b7-ed193c518773?alt=media&token=7c9dffd0-5f62-42a5-a34b-9559d96e08fc"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Fa1818ef5-48f8-4106-8da2-114fb263be83?alt=media&token=ca0d5397-9233-45a8-b102-d2d7c51ab7bc"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Fbeff7927-d137-48a8-a6ab-949383f26ec2?alt=media&token=27d08cc8-03fe-422d-90b4-832df7f1217f"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+<div>
+	<img src={"https://firebasestorage.googleapis.com/v0/b/spanish-for-business.appspot.com/o/B1.4%2FB1.4%20Unit%206%2FB1.4%20Unit%206%20L3%2Fa6f66b04-d6bd-4195-8d5a-265c3d631599?alt=media&token=b0752171-5210-4fe9-b92b-cfe74a0a364e"} alt="boohoo" className="img-responsive"/>
+	<br/>
+</div>
+
         </Slider>
         
 

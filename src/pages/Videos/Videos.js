@@ -3,9 +3,9 @@ import { Embed,Dropdown } from 'semantic-ui-react';
 
 import "./Videos.scss";
 
-const videose = [
-  { key: 'af', value: 'vOEro_vgUH0', text: 'Las aficiones de mis compañeros' },
-  
+const videose =  [
+  { key: 'af', value: '2M-rAt2A7-4', text: 'Retos del sector turismo en España.'},
+  { key: 'ax', value: 'CZtZUqxmyrY', text: 'Actividades de aventura y lugares para personas atrevidas.'},
 ]
 
 export default function Videos() {
@@ -45,4 +45,3 @@ function initialValueForm(){
      id:""
 }
 }
-

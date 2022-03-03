@@ -1,11 +1,11 @@
 {
   "hosting": {
-    "target": "generalspanish.a11.unit2changes",
-      "public": "generalspanish.a11.unit2changes/build",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
+    "target": "spanishbusiness.b14.unit6",
+    "public": "spanishbusiness.b14.unit6/build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
     ]
   },
   "rewrites": [

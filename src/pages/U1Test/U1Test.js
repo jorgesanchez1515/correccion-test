@@ -13,7 +13,7 @@ import './U1Test.scss';
 const db = firebase.firestore(firebase);
 
 
-const answertres = "https://docs.google.com/spreadsheets/d/16zLYnZR2tikG8DnaitrJcvcwDWKKeHx6ZIZdovt00jE/edit#gid=510112155";
+const answertres = "https://docs.google.com/spreadsheets/d/1xKGyGWcDC4ux1VRd1CxrCfQ2ty_QsdTF8NFbTBy1k_Q/edit?resourcekey#gid=1736934562";
 
 const skilltres = "Test";
 
@@ -126,7 +126,7 @@ function U1Test(props) {
 
 
         e.preventDefault();
-        fetch('https://docs.google.com/forms/d/e/1FAIpQLSev2AR4dP7gwe-Mmwc4B6BZLs7Ufim2VQILXynPPd3X2JSQ0Q/formResponse', {
+        fetch('https://docs.google.com/forms/d/e/1FAIpQLSetLwCXC-OmbSPkHAZiOINzN0QmGLAdLRLD2jKU7JJzZ3eezw/formResponse', {
             method: 'post',
             mode: 'no-cors',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -148,278 +148,262 @@ function U1Test(props) {
 
                 <div className="App">
                     <header className="App-header">
-                        <form onChange={onChange} className="trabajo-U1" id="u1-course-form">
-                            <fieldset>
-                                <div ><h2 className="U1">A11U2 TEST</h2></div>
-                            </fieldset>
-                            <fieldset>
-                                <div className="parrafo-u1"><p>Responde a las preguntas.</p></div>
-                            </fieldset>
+                    
+                    <form  onChange={onChange} className="trabajo-U1" id="u1-course-form">
+	<fieldset>
+		<div>
+			<h2 className="U1">B14U6NTEST</h2>
+		</div>
+	</fieldset>
+	<fieldset>
+		<div className="parrafo-u1">
+			<p>Responde a las siguientes preguntas.</p>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="" className="leyenda-tres">Email</legend>
+		<div class="form-group">
+			<input id="emailAddress" type="email" name="emailAddress" class="form-control-estilo-tres" required/>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="716231463" className="leyenda-tres">1. ¿Cuál de las siguientes estructuras no es correcta en ningún caso?</legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1393700542" value="Si + pretérito imperfecto de subjuntivo" required/>
+					Si + pretérito imperfecto de subjuntivo
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1393700542" value="Si + presente de indicativo" required/>
+					Si + presente de indicativo
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1393700542" value="Si + presente de subjuntivo" required/>
+					Si + presente de subjuntivo
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="214565366" className="leyenda-tres">2. Una frase en condicional simple normalmente va acompañada de una frase en...</legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.517185688" value="condicional compuesto" required/>
+					condicional compuesto
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.517185688" value="pretérito imperfecto de subjuntivo" required/>
+					pretérito imperfecto de subjuntivo
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.517185688" value="pretérito imperfecto de indicativo" required/>
+					pretérito imperfecto de indicativo
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="2015282755" className="leyenda-tres">3. Una frase condicional contrafactual hace referencia a un hecho que...</legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1654019391" value="será realidad en un futuro próximo según la previsión del hablante." required/>
+					será realidad en un futuro próximo según la previsión del hablante.
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1654019391" value="no será realidad nunca según la previsión del hablante." required/>
+					no será realidad nunca según la previsión del hablante.
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1654019391" value="será realidad en un futuro cercano según la previsión del hablante." required/>
+					será realidad en un futuro cercano según la previsión del hablante.
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="1559532276" className="leyenda-tres">4. El pretérito imperfecto de subjuntivo comparte elementos formales con...</legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.701474427" value="el pretérito indefinido de indicativo." required/>
+					el pretérito indefinido de indicativo.
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.701474427" value="el pretérito perfecto de indicativo." required/>
+					el pretérito perfecto de indicativo.
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.701474427" value="el pretérito imperfecto de indicativo." required/>
+					el pretérito imperfecto de indicativo.
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="1290104294" className="leyenda-tres">5. Si una persona comienza una frase diciendo: "Si tuviera dinero....." significa que:</legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1208772601" value="esa persona no está segura de si tiene dinero o no." required/>
+					esa persona no está segura de si tiene dinero o no.
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1208772601" value="esa persona tiene dinero." required/>
+					esa persona tiene dinero.
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1208772601" value="esa persona no tiene dinero." required/>
+					esa persona no tiene dinero.
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="189076065" className="leyenda-tres">6. Si tuvieras una agencia de turismo dedicado al turismo aventura, ¿cuál de estas propuestas turísticas ofrecerías?</legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1418730125" value="un paseo de compras en un centro comercial de Miami" required/>
+					un paseo de compras en un centro comercial de Miami
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1418730125" value="un vuelo en globo aerostático" required/>
+					un vuelo en globo aerostático
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.1418730125" value="una visita a las ruinas del Coliseo romano" required/>
+					una visita a las ruinas del Coliseo romano
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="1728824291" className="leyenda-tres">7. Aunque tuviera mucho dinero, no lo gastaría en una estancia en un ____________. Me parece un derroche de dinero. </legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.2080926227" value="lujo de hotel" required/>
+					lujo de hotel
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.2080926227" value="hotel lujo" required/>
+					hotel lujo
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.2080926227" value="hotel de lujo" required/>
+					hotel de lujo
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="701822805" className="leyenda-tres">8. ¿Qué deberían hacer las compañías de turismo si ____________ tener precios competitivos?</legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.233362501" value="quisieran" required/>
+					quisieran
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.233362501" value="querrían" required/>
+					querrían
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.233362501" value="querían" required/>
+					querían
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="754874466" className="leyenda-tres">9. Google Maps es una __________ que utilizan los  viajeros para ubicarse en un lugar desconocido, encontrar lugares y servicios al turista.   </legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.445551925" value="mapa" required/>
+					mapa
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.445551925" value="internet" required/>
+					internet
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.445551925" value="aplicación" required/>
+					aplicación
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend for="1085452241" className="leyenda-tres">10. ¿Cuál de estas frases corresponde a una persona dedicada a los negocios turísticos? </legend>
+		<div class="form-group">
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.2091231300" value="Me encantaría tener una agencia de turismo." required/>
+					Me encantaría tener una agencia de turismo.
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.2091231300" value="Me encanta tener una agencia de turismo." required/>
+					Me encanta tener una agencia de turismo.
+				</label>
+			</div>
+			<div class="radio">
+				<label className="etiqueta-tres">
+					<input type="radio" name="entry.2091231300" value="Ninguna de las dos opciones anteriores." required/>
+					Ninguna de las dos opciones anteriores.
+				</label>
+			</div>
+		</div>
+	</fieldset>
+	<input type="hidden" name="fvv" value="1"/>
+	<input type="hidden" name="fbzx" value="8461977738504272510"/>
+	<input type="hidden" name="pageHistory" value="0"/>
+	<div class="center">
+		<Button className="btn-primary-uno" onClick={onSubmit} isLoading={isLoading}>Send</Button>
+	</div>
+</form>
 
-
-                            <fieldset>
-                                <legend for="" className="leyenda-tres">Email</legend>
-                                <div class="form-group">
-                                    <input id="emailAddress" type="email" name="emailAddress" class="form-control-estilo-tres" required />
-                                </div>
-                            </fieldset>
-
-
-                            <fieldset>
-                                <legend for="615003357" className="leyenda-tres">1. Mi madre es _____</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1349283883" value="alta." required />
-                                            alta.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1349283883" value="bajo." required />
-                                            bajo.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1349283883" value="guapas." required />
-                                            guapas.
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-
-                            <fieldset>
-                                <legend for="35808740" className="leyenda-tres">2. Mi padre es _____</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.207786157" value="guapa." required />
-                                            guapa.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.207786157" value="delgados." required />
-                                            delgados.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.207786157" value="delgado." required />
-                                            delgado.
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-
-                            <fieldset>
-                                <legend for="1510723376" className="leyenda-tres">3. Yo ______ dos hermanas.</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1334137399" value="tenemos" required />
-                                            tenemos
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1334137399" value="tengo" required />
-                                            tengo
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1334137399" value="tienes" required />
-                                            tienes
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-                            <fieldset>
-                                <legend for="379457921" className="leyenda-tres">4. Señala qué grupo de palabras se refieren al carácter de una persona.</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.137986139" value="Padre, madre, hermano." required />
-                                            Padre, madre, hermano.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.137986139" value="Alto, guapo, ojos azules." required />
-                                            Alto, guapo, ojos azules.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.137986139" value="Simpático, ordenado, puntual," required />
-                                            Simpático, ordenado, puntual,
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-
-                            <fieldset>
-                                <legend for="2017414187" className="leyenda-tres">5. Señala la opción correcta.</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1583870601" value="Yo llevo una camiseta rojo." required />
-                                            Yo llevo una camiseta rojo.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1583870601" value="Yo llevo unos pantalones amarillos." required />
-                                            Yo llevo unos pantalones amarillos.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1583870601" value="Tú llevas una falda rojo." required />
-                                            Tú llevas una falda rojo.
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-                            <fieldset>
-                                <legend for="1195985580" className="leyenda-tres">6. Indica el grupo de posesivos átonos.</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1847724839" value="Mi, tu, su, nuestro, vuestra, su." required />
-                                            Mi, tu, su, nuestro, vuestra, su.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1847724839" value="Este, esta, estos, estas." required />
-                                            Este, esta, estos, estas.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1847724839" value="Aquel, aquella, aquellos, aquellas." required />
-                                            Aquel, aquella, aquellos, aquellas.
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-
-                            <fieldset>
-                                <legend for="1520070957" className="leyenda-tres">7. Ellos _______ veinticinco años.</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.288877988" value="tengo" required />
-                                            tengo
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.288877988" value="tienes" required />
-                                            tienes
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.288877988" value="tienen" required />
-                                            tienen
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-
-                            <fieldset>
-                                <legend for="1244616584" className="leyenda-tres">8. Mi abuelo tiene los ojos _______</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.197499075" value="azules." required />
-                                            azules.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.197499075" value="verde." required />
-                                            verde.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.197499075" value="marrón." required />
-                                            marrón.
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-                            <fieldset>
-                                <legend for="1517152112" className="leyenda-tres">9. ¿Cuánto _______ esta camisa azul?</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1047741934" value="cuestan" required />
-                                            cuestan
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1047741934" value="cuesta" required />
-                                            cuesta
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.1047741934" value="cuesto" required />
-                                            cuesto
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-
-                            <fieldset>
-                                <legend for="829316483" className="leyenda-tres">10. ¿Qué número es este: 59?</legend>
-                                <div class="form-group">
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.455150019" value="Cinco y nueve." required />
-                                            Cinco y nueve.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.455150019" value="Cincoenta y nueve." required />
-                                            Cincoenta y nueve.
-                                        </label>
-                                    </div>
-                                    <div class="radio">
-                                        <label className="etiqueta-tres">
-                                            <input type="radio" name="entry.455150019" value="Cincuenta y nueve." required />
-                                            Cincuenta y nueve.
-                                        </label>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-
-                            <input type="hidden" name="fvv" value="1" />
-                            <input type="hidden" name="fbzx" value="-7463818563038847979" />
-
-                            <input type="hidden" name="pageHistory" value="0" />
-                            <div class="center">
-                                <Button className="btn-primary-tres" onClick={onSubmit} isLoading={isLoading}>Send</Button>
-                            </div>
-                        </form>
                     </header>
                 </div>
             ) : (
