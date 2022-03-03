@@ -19,41 +19,71 @@ const skill = "Vocabulary";
 
 function L1work(props) {
 
-    const { user, myclass, idclass, classname, teachername } = props;
-    // console.log(user.uid);
-    const [formData, setformData] = useState("");
-    //const [myclass, setMyclass] = useState(null);
-    const [userDetails, setUserDetails] = useState('');
-    const [waiting, setWaiting] = useState(false);
-    const [isLoading, setIsLoading] = useState(false);
-    //const [teacherid, setTeacherid] = useState('');
-    //console.log(myclass);
-    //console.log(userDetails);
-    //console.log(idclass);
-    ////////input informations  
-    //console.log(user);
-    //console.log(classname);
-    // console.log(teachername);
+    const { user, myclass, idclass, classname, teachername } = props
+
+	const [formData,    setformData]    = useState("")
+    const [userDetails, setUserDetails] = useState('')
+    const [waiting,     setWaiting]     = useState(false)
+    const [isLoading,   setIsLoading]   = useState(false)
 
 
     ////////////////course details user
-    useEffect(() => {
+    /*useEffect(() => {
         db.collection('waiting')
             .doc(user.uid).get()
             .then(snapshot => setUserDetails(snapshot.data()))
         //   setMyclass(arrayofClasses);
 
-    }, [])
+    }, [])*/
     ////////////////
 
     ////////////set is waiting answers  
-    useEffect(() => {
+    /*useEffect(() => {
         isWaitingAnswers(user.uid).then(response => {
             setWaiting(response);
             // console.log(response);
         });
-    }, [user])
+    }, [user])*/
     /////////  
+
+    // Course details user
+	useEffect(() => {
+		if(!idclass) 
+			return
+		
+		db.collection("studentclass")
+		.doc(idclass)
+		.get()
+		.then(response => {
+			const data = response?.data()
+
+			setUserDetails({
+				course: data?.course || "Null",
+				level:  data?.level  || "Null"
+			})
+		})
+	}, [idclass])
+
+    // Set is waiting answers  
+    useEffect(() => {
+		db.collection("answers")
+		.where("user", "==", user.uid)
+		.get()
+		.then(response => {
+
+			let myAnswers = response?.docs.map(doc => doc.data())
+
+			let result = true
+
+			myAnswers.forEach(elem => {
+				if(elem.answerlink == answer)
+					result = false
+			})
+
+			setWaiting(result)
+		})
+    }, [user]) 
+
     const onChange = e => {
 
         // console.log("Key:" +e.target.name);

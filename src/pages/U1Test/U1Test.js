@@ -34,7 +34,7 @@ function U1Test(props) {
 
 
     ////////////////course details user
-    useEffect(() => {
+    /*useEffect(() => {
         db.collection('waiting')
             .doc(user.uid).get()
             .then(snapshot => setUserDetailstres(snapshot.data()))
@@ -49,9 +49,49 @@ function U1Test(props) {
             setWaitingtres(response);
             // console.log(response);
         });
-    }, [user])
-    /////////formdata state  
+    }, [user])*/
+    
+	
+	   // Course details user
+	   useEffect(() => {
+		if(!idclass) 
+			return
+		
+		db.collection("studentclass")
+		.doc(idclass)
+		.get()
+		.then(response => {
+			const data = response?.data()
 
+			setUserDetailstres({
+				course: data?.course || "Null",
+				level:  data?.level  || "Null"
+			})
+		})
+	}, [idclass])
+
+    // Set is waiting answers  
+    useEffect(() => {
+		db.collection("answers")
+		.where("user", "==", user.uid)
+		.get()
+		.then(response => {
+
+			let myAnswers = response?.docs.map(doc => doc.data())
+
+			let result = true
+
+			myAnswers.forEach(elem => {
+				if(elem.answerlink == answertres)
+					result = false
+			})
+
+			setWaitingtres(result)
+		})
+    }, [user]) 
+	
+
+	/////////formdata state  
     const onChange = e => {
         // console.log("Key:" +e.target.name);
         // console.log("Value:" +e.target.value);

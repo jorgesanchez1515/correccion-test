@@ -34,7 +34,7 @@ function L2work(props) {
 
 
     ////////////////course details user
-    useEffect(() => {
+    /*useEffect(() => {
         db.collection('waiting')
             .doc(user.uid).get()
             .then(snapshot => setUserDetailsdos(snapshot.data()))
@@ -49,8 +49,47 @@ function L2work(props) {
             setWaitingdos(response);
             // console.log(response);
         });
-    }, [user])
+    }, [user])*/
     /////////  
+
+    // Course details user
+	useEffect(() => {
+		if(!idclass) 
+			return
+		
+		db.collection("studentclass")
+		.doc(idclass)
+		.get()
+		.then(response => {
+			const data = response?.data()
+
+			setUserDetailsdos({
+				course: data?.course || "Null",
+				level:  data?.level  || "Null"
+			})
+		})
+	}, [idclass])
+
+    // Set is waiting answers  
+    useEffect(() => {
+		db.collection("answers")
+		.where("user", "==", user.uid)
+		.get()
+		.then(response => {
+
+			let myAnswers = response?.docs.map(doc => doc.data())
+
+			let result = true
+
+			myAnswers.forEach(elem => {
+				if(elem.answerlink == answerdos)
+					result = false
+			})
+
+			setWaitingdos(result)
+		})
+    }, [user]) 
+
 
     const onChange = e => {
         // console.log("Key:" +e.target.name);
